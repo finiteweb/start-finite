@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p{
      
     color:#FF4654 ;
@@ -125,4 +126,133 @@ article h2{
     background-color: #242d32;
     }
 
+=======
+p{
+     
+    color:#FF4654 ;
+    
+}
+body{
+    background-color: #242D32;
+    overflow-x: hidden;
+    font-family: 'Russo One', sans-serif;
+
+   
+}
+header{
+    background-color: #FF4654;
+    padding: 20px 0px;
+    text-align: center;
+  
+}
+header h1{
+    display: inline-block;
+    border: #242D32 solid 2px ;
+    max-width: 50%;   
+    padding: 10px;
+}
+.banner img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    
+}
+.banner h2{
+    position: absolute;
+    top: 14em;
+    left: 37.5em;
+    color:#FF4654; 
+}
+.banner h2:hover{
+    position: absolute;
+    top: 14em;
+    left: 39.5em;
+    color:#FF4654;
+    transform: scale(1.1);
+    transition: .8s ;
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    
+    
+  }
+  aside img{
+      width: 640px;
+      height: 980px;
+      position: absolute;
+      right: 2em;
+  }
+  aside img:hover{
+    width: 640px;
+    height: 980px;
+    position:absolute;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.main-nav li a{
+    
+    text-decoration: none;
+    color:#FF4654 ;
+    font-size: 2em;
+    
+padding-inline-start: 5.5em;
+
+}
+.main-nav li a:hover{
+    
+    text-decoration: none;
+    color:#FF4654 ;
+    font-size: 2em;
+    text-decoration: underline;
+
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.main-nav li{
+    list-style: none;
+    display: inline-block;
+  
+    text-align: center;
+}
+.email{
+    text-align: center;
+    padding: 15em;
+}
+.email input{
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+input:invalid{
+    background:#FF4654;
+}
+input:valid{
+    background:green;
+}
+article h2{
+    text-align: center;
+    background-color:#FF4654 ;
+    border: black 2px solid;
+    padding: 20px 0px;
+    color: #242D32;
+}
+@media screen and (max-width:900px){
+    .banner h2{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    text-align: center;
+    background-color: #242d32;
+    }
+
+>>>>>>> beee052552ee0684ae09f50427ad5c0a9a9632c5
 }
