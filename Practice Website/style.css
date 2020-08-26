@@ -1,0 +1,14 @@
+.banner img{
+    max-width: 100%;
+}
+aside {
+    
+    width: 30%;
+    padding-left: 0;
+    margin-left: 0;
+    float: right; 
+  }
+  aside img{
+      width: 600px;
+      height: 980px;
+  }
